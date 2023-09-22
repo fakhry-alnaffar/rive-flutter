@@ -5,7 +5,7 @@ import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/rive_core/container_component.dart';
 
-abstract class MeshBase extends ContainerComponent {
+mixin MeshBase extends ContainerComponent {
   static const int typeKey = 109;
   @override
   int get coreType => MeshBase.typeKey;

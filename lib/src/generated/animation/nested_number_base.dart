@@ -6,7 +6,7 @@ import 'package:rive/src/core/core.dart';
 import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/rive_core/animation/nested_input.dart';
 
-abstract class NestedNumberBase extends NestedInput {
+mixin NestedNumberBase extends NestedInput {
   static const int typeKey = 124;
   @override
   int get coreType => NestedNumberBase.typeKey;

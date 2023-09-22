@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/animation/listener_action.dart';
 
-abstract class ListenerAlignTargetBase extends ListenerAction {
+mixin ListenerAlignTargetBase extends ListenerAction {
   static const int typeKey = 126;
   @override
   int get coreType => ListenerAlignTargetBase.typeKey;

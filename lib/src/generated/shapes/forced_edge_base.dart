@@ -3,7 +3,7 @@
 
 import 'package:rive/src/rive_core/component.dart';
 
-abstract class ForcedEdgeBase extends Component {
+mixin ForcedEdgeBase extends Component {
   static const int typeKey = 112;
   @override
   int get coreType => ForcedEdgeBase.typeKey;

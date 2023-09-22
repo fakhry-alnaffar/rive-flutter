@@ -4,7 +4,7 @@ import 'package:rive/src/rive_core/animation/nested_state_machine.dart';
 
 export 'package:rive/src/generated/animation/nested_input_base.dart';
 
-abstract class NestedInput extends NestedInputBase {
+mixin NestedInput extends NestedInputBase {
   @override
   void inputIdChanged(int from, int to) {}
 

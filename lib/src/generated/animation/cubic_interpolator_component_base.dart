@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-abstract class CubicInterpolatorComponentBase extends Component {
+mixin CubicInterpolatorComponentBase extends Component {
   static const int typeKey = 163;
   @override
   int get coreType => CubicInterpolatorComponentBase.typeKey;

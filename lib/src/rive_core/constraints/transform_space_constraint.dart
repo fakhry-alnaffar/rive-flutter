@@ -4,7 +4,7 @@ import 'package:rive_common/math.dart';
 
 export 'package:rive/src/generated/constraints/transform_space_constraint_base.dart';
 
-abstract class TransformSpaceConstraint extends TransformSpaceConstraintBase {
+mixin TransformSpaceConstraint extends TransformSpaceConstraintBase {
   final TransformComponents componentsA = TransformComponents();
   final TransformComponents componentsB = TransformComponents();
 

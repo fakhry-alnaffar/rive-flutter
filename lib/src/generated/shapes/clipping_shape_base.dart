@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-abstract class ClippingShapeBase extends Component {
+mixin ClippingShapeBase extends Component {
   static const int typeKey = 42;
   @override
   int get coreType => ClippingShapeBase.typeKey;

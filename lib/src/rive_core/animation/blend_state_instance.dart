@@ -17,7 +17,7 @@ class BlendStateAnimationInstance<T extends BlendAnimation> {
 
 /// Generic blend state instance which works for [BlendState<BlendAnimation>]s
 /// where T represents the BlendState and K the BlendAnimation.
-abstract class BlendStateInstance<T extends BlendState<K>,
+mixin BlendStateInstance<T extends BlendState<K>,
     K extends BlendAnimation> extends StateInstance {
   final List<BlendStateAnimationInstance<K>> animationInstances;
   BlendStateInstance(T state)

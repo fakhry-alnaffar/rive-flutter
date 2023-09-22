@@ -13,7 +13,7 @@ class Cubic extends CubicEase {
   }
 }
 
-abstract class CubicEase {
+mixin CubicEase {
   double transform(double t);
 
   static CubicEase make(double x1, double y1, double x2, double y2) {

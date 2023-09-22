@@ -4,7 +4,7 @@ import 'package:rive/src/rive_core/backboard.dart';
 
 export 'package:rive/src/generated/assets/file_asset_base.dart';
 
-abstract class FileAsset extends FileAssetBase {
+mixin FileAsset extends FileAssetBase {
   @override
   void assetIdChanged(int from, int to) {}
 
@@ -56,7 +56,7 @@ abstract class FileAsset extends FileAssetBase {
 }
 
 /// A mixin for any class that references a generic FileAsset.
-abstract class FileAssetReferencer<T extends FileAsset> {
+mixin FileAssetReferencer<T extends FileAsset> {
   T? _asset;
   T? get asset => _asset;
 

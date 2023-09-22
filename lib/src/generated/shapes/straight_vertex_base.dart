@@ -9,7 +9,7 @@ import 'package:rive/src/generated/shapes/vertex_base.dart';
 import 'package:rive/src/rive_core/bones/weight.dart';
 import 'package:rive/src/rive_core/shapes/path_vertex.dart';
 
-abstract class StraightVertexBase extends PathVertex<Weight> {
+mixin StraightVertexBase extends PathVertex<Weight> {
   static const int typeKey = 5;
   @override
   int get coreType => StraightVertexBase.typeKey;

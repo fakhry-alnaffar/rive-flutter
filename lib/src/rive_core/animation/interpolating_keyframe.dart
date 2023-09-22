@@ -7,7 +7,7 @@ import 'package:rive/src/rive_core/animation/keyframe_interpolation.dart';
 
 export 'package:rive/src/generated/animation/interpolating_keyframe_base.dart';
 
-abstract class InterpolatingKeyFrame extends InterpolatingKeyFrameBase {
+mixin InterpolatingKeyFrame extends InterpolatingKeyFrameBase {
   @override
   bool get canInterpolate => true;
 

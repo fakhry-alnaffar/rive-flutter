@@ -3,7 +3,7 @@ import 'package:rive/src/rive_core/artboard.dart';
 export 'fakes.dart';
 
 // ignore: one_member_abstracts
-abstract class _OnInitFunction {
+mixin _OnInitFunction {
   void call(Artboard _);
 }
 

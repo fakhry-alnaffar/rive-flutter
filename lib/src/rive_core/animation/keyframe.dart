@@ -5,7 +5,7 @@ import 'package:rive/src/rive_core/animation/linear_animation.dart';
 
 export 'package:rive/src/generated/animation/keyframe_base.dart';
 
-abstract class KeyFrame extends KeyFrameBase<RuntimeArtboard>
+mixin KeyFrame extends KeyFrameBase<RuntimeArtboard>
     implements KeyFrameInterface {
   bool get canInterpolate => false;
   double _timeInSeconds = 0;

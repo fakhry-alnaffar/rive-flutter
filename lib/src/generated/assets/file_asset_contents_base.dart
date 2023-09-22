@@ -4,7 +4,7 @@
 
 import 'package:rive/src/core/core.dart';
 
-abstract class FileAssetContentsBase<T extends CoreContext> extends Core<T> {
+mixin FileAssetContentsBase<T extends CoreContext> extends Core<T> {
   static const int typeKey = 106;
   @override
   int get coreType => FileAssetContentsBase.typeKey;

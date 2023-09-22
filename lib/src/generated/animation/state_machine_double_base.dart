@@ -5,7 +5,7 @@
 import 'package:rive/src/generated/animation/state_machine_component_base.dart';
 import 'package:rive/src/rive_core/animation/state_machine_input.dart';
 
-abstract class StateMachineDoubleBase extends StateMachineInput {
+mixin StateMachineDoubleBase extends StateMachineInput {
   static const int typeKey = 56;
   @override
   int get coreType => StateMachineDoubleBase.typeKey;

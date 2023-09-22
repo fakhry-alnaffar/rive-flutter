@@ -6,7 +6,7 @@ import 'package:rive_common/math.dart';
 
 export 'package:rive/src/generated/animation/listener_action_base.dart';
 
-abstract class ListenerAction extends ListenerActionBase {
+mixin ListenerAction extends ListenerActionBase {
   @override
   void onAdded() {}
 

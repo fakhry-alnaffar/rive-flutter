@@ -8,7 +8,7 @@ export 'package:rive/src/core/core.dart';
 
 typedef bool DescentCallback(Component component);
 
-abstract class ContainerComponent extends ContainerComponentBase {
+mixin ContainerComponent extends ContainerComponentBase {
   final ContainerChildren children = ContainerChildren();
 
   /// Adds the child to the children list and re-wires the parent reference of

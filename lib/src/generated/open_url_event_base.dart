@@ -6,7 +6,7 @@ import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/rive_core/event.dart';
 
-abstract class OpenUrlEventBase extends Event {
+mixin OpenUrlEventBase extends Event {
   static const int typeKey = 131;
   @override
   int get coreType => OpenUrlEventBase.typeKey;

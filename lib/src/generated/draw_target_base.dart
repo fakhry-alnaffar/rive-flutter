@@ -4,7 +4,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-abstract class DrawTargetBase extends Component {
+mixin DrawTargetBase extends Component {
   static const int typeKey = 48;
   @override
   int get coreType => DrawTargetBase.typeKey;

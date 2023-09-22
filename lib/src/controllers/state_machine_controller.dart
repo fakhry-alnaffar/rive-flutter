@@ -24,7 +24,7 @@ enum SMIType { number, boolean, trigger }
 /// The implementation can now change these values freely as they are decoupled
 /// from the backing [StateMachine] and can safely be re-instanced by another
 /// controller later.
-abstract class SMIInput<T> {
+mixin SMIInput<T> {
   final core.StateMachineInput _input;
   final StateMachineController controller;
   final SMIType type;

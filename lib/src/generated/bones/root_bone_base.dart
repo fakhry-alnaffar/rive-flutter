@@ -9,7 +9,7 @@ import 'package:rive/src/generated/transform_component_base.dart';
 import 'package:rive/src/generated/world_transform_component_base.dart';
 import 'package:rive/src/rive_core/bones/bone.dart';
 
-abstract class RootBoneBase extends Bone {
+mixin RootBoneBase extends Bone {
   static const int typeKey = 41;
   @override
   int get coreType => RootBoneBase.typeKey;

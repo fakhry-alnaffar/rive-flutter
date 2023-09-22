@@ -6,7 +6,7 @@ import 'package:rive_common/utilities.dart';
 
 export 'package:rive/src/generated/component_base.dart';
 
-abstract class Component extends ComponentBase<RuntimeArtboard>
+mixin Component extends ComponentBase<RuntimeArtboard>
     implements DependencyGraphNode<Component>, Parentable<Component> {
   Artboard? _artboard;
   dynamic _userData;

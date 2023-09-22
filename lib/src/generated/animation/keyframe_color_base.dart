@@ -6,7 +6,7 @@ import 'package:rive/src/core/core.dart';
 import 'package:rive/src/generated/animation/keyframe_base.dart';
 import 'package:rive/src/rive_core/animation/interpolating_keyframe.dart';
 
-abstract class KeyFrameColorBase extends InterpolatingKeyFrame {
+mixin KeyFrameColorBase extends InterpolatingKeyFrame {
   static const int typeKey = 37;
   @override
   int get coreType => KeyFrameColorBase.typeKey;

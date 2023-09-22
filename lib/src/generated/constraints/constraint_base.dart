@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-abstract class ConstraintBase extends Component {
+mixin ConstraintBase extends Component {
   static const int typeKey = 79;
   @override
   int get coreType => ConstraintBase.typeKey;

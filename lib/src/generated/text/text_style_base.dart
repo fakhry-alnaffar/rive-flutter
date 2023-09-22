@@ -5,7 +5,7 @@ import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/rive_core/container_component.dart';
 
-abstract class TextStyleBase extends ContainerComponent {
+mixin TextStyleBase extends ContainerComponent {
   static const int typeKey = 137;
   @override
   int get coreType => TextStyleBase.typeKey;

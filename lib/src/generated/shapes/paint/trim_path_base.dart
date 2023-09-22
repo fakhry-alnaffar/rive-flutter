@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-abstract class TrimPathBase extends Component {
+mixin TrimPathBase extends Component {
   static const int typeKey = 47;
   @override
   int get coreType => TrimPathBase.typeKey;

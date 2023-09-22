@@ -7,7 +7,7 @@ import 'package:rive_common/math.dart';
 
 export 'package:rive/src/generated/animation/nested_state_machine_base.dart';
 
-abstract class NestedStateMachineInstance {
+mixin NestedStateMachineInstance {
   bool get isActive;
   ValueListenable<bool> get isActiveChanged;
 

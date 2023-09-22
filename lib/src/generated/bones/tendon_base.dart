@@ -4,7 +4,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-abstract class TendonBase extends Component {
+mixin TendonBase extends Component {
   static const int typeKey = 44;
   @override
   int get coreType => TendonBase.typeKey;

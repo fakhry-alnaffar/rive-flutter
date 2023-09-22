@@ -7,7 +7,7 @@ import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/generated/constraints/constraint_base.dart';
 import 'package:rive/src/rive_core/constraints/targeted_constraint.dart';
 
-abstract class TransformSpaceConstraintBase extends TargetedConstraint {
+mixin TransformSpaceConstraintBase extends TargetedConstraint {
   static const int typeKey = 90;
   @override
   int get coreType => TransformSpaceConstraintBase.typeKey;

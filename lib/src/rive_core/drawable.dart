@@ -10,7 +10,7 @@ import 'package:rive/src/rive_core/transform_component.dart';
 
 export 'package:rive/src/generated/drawable_base.dart';
 
-abstract class Drawable extends DrawableBase {
+mixin Drawable extends DrawableBase {
   /// Flattened rules inherited from parents (or self) so we don't have to look
   /// up the tree when re-sorting.
   DrawRules? flattenedDrawRules;

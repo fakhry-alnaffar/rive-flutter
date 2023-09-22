@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 
 /// Abstraction for receiving a per frame callback while isPlaying is true to
 /// apply animation based on an elapsed amount of time.
-abstract class RiveAnimationController<T> {
+mixin RiveAnimationController<T> {
   final _isActive = ValueNotifier<bool>(false);
   ValueListenable<bool> get isActiveChanged => _isActive;
 

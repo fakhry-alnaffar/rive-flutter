@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/animation/transition_condition.dart';
 
-abstract class TransitionValueConditionBase extends TransitionCondition {
+mixin TransitionValueConditionBase extends TransitionCondition {
   static const int typeKey = 69;
   @override
   int get coreType => TransitionValueConditionBase.typeKey;

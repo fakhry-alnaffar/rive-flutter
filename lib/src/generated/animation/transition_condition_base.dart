@@ -4,7 +4,7 @@
 
 import 'package:rive/src/core/core.dart';
 
-abstract class TransitionConditionBase<T extends CoreContext> extends Core<T> {
+mixin TransitionConditionBase<T extends CoreContext> extends Core<T> {
   static const int typeKey = 67;
   @override
   int get coreType => TransitionConditionBase.typeKey;

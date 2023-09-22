@@ -5,7 +5,7 @@ import 'package:rive/src/rive_core/animation/blend_animation.dart';
 export 'package:rive/src/generated/animation/blend_state_base.dart';
 
 //
-abstract class BlendState<T extends BlendAnimation> extends BlendStateBase {
+mixin BlendState<T extends BlendAnimation> extends BlendStateBase {
   final BlendAnimations<T> _animations = BlendAnimations<T>();
   BlendAnimations<T> get animations => _animations;
 

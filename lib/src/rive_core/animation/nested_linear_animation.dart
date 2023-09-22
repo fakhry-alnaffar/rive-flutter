@@ -5,7 +5,7 @@ export 'package:rive/src/generated/animation/nested_linear_animation_base.dart';
 
 /// Need this abstraction to not depend on package:rive in rive_core.
 // ignore: one_member_abstracts
-abstract class NestedLinearAnimationInstance {
+mixin NestedLinearAnimationInstance {
   void goto(double value);
   double get durationSeconds;
 
@@ -16,7 +16,7 @@ abstract class NestedLinearAnimationInstance {
   void apply(covariant MountedArtboard artboard, double mix);
 }
 
-abstract class NestedLinearAnimation extends NestedLinearAnimationBase {
+mixin NestedLinearAnimation extends NestedLinearAnimationBase {
   NestedLinearAnimationInstance? _linearAnimationInstance;
   NestedLinearAnimationInstance? get linearAnimationInstance =>
       _linearAnimationInstance;

@@ -36,7 +36,7 @@ export 'package:rive/src/state_transitions.dart';
 typedef PropertyChangeCallback = void Function(dynamic from, dynamic to);
 typedef BatchAddCallback = void Function();
 
-abstract class Core<T extends CoreContext> {
+mixin Core<T extends CoreContext> {
   static const int missingId = -1;
   covariant late T context;
   int get coreType;
@@ -76,7 +76,7 @@ class InternalCoreHelper {
   }
 }
 
-abstract class CoreContext {
+mixin CoreContext {
   static const int invalidPropertyKey = 0;
 
   Core? makeCoreInstance(int typeKey);
@@ -91,7 +91,7 @@ abstract class CoreContext {
 }
 
 // ignore: one_member_abstracts
-abstract class ImportStackObject {
+mixin ImportStackObject {
   final _resolveBefore = <ImportStackObject>{};
   bool _resolved = false;
 

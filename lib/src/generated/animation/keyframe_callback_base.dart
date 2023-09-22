@@ -4,7 +4,7 @@
 
 import 'package:rive/src/rive_core/animation/keyframe.dart';
 
-abstract class KeyFrameCallbackBase extends KeyFrame {
+mixin KeyFrameCallbackBase extends KeyFrame {
   static const int typeKey = 171;
   @override
   int get coreType => KeyFrameCallbackBase.typeKey;

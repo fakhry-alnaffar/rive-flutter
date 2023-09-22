@@ -31,6 +31,6 @@ import 'package:rive/src/rive_core/shapes/vertex.dart';
   void markSkinDirty();
 }
 
-abstract class SkinnableProvider<T extends Vertex> {
+mixin SkinnableProvider<T extends Vertex> {
   Skinnable<T>? get skinnable;
 }

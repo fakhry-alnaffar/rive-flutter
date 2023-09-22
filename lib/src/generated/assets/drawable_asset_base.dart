@@ -6,7 +6,7 @@ import 'package:rive/src/core/core.dart';
 import 'package:rive/src/generated/assets/asset_base.dart';
 import 'package:rive/src/rive_core/assets/file_asset.dart';
 
-abstract class DrawableAssetBase extends FileAsset {
+mixin DrawableAssetBase extends FileAsset {
   static const int typeKey = 104;
   @override
   int get coreType => DrawableAssetBase.typeKey;

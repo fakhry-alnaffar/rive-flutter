@@ -6,7 +6,7 @@ import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/rive_core/container_component.dart';
 
-abstract class TextModifierGroupBase extends ContainerComponent {
+mixin TextModifierGroupBase extends ContainerComponent {
   static const int typeKey = 159;
   @override
   int get coreType => TextModifierGroupBase.typeKey;

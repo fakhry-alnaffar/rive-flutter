@@ -7,7 +7,7 @@ import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/generated/constraints/constraint_base.dart';
 import 'package:rive/src/rive_core/constraints/targeted_constraint.dart';
 
-abstract class DistanceConstraintBase extends TargetedConstraint {
+mixin DistanceConstraintBase extends TargetedConstraint {
   static const int typeKey = 82;
   @override
   int get coreType => DistanceConstraintBase.typeKey;

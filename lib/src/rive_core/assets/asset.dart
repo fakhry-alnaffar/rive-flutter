@@ -2,7 +2,7 @@ import 'package:rive/src/generated/assets/asset_base.dart';
 
 export 'package:rive/src/generated/assets/asset_base.dart';
 
-abstract class Asset extends AssetBase {
+mixin Asset extends AssetBase {
   @override
   void nameChanged(String from, String to) {}
 

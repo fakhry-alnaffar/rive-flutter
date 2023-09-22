@@ -4,7 +4,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-abstract class JoystickBase extends Component {
+mixin JoystickBase extends Component {
   static const int typeKey = 148;
   @override
   int get coreType => JoystickBase.typeKey;

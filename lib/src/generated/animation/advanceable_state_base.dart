@@ -6,7 +6,7 @@ import 'package:rive/src/core/core.dart';
 import 'package:rive/src/generated/animation/state_machine_layer_component_base.dart';
 import 'package:rive/src/rive_core/animation/layer_state.dart';
 
-abstract class AdvanceableStateBase extends LayerState {
+mixin AdvanceableStateBase extends LayerState {
   static const int typeKey = 145;
   @override
   int get coreType => AdvanceableStateBase.typeKey;

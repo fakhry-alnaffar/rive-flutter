@@ -5,7 +5,7 @@
 import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/rive_core/animation/nested_input.dart';
 
-abstract class NestedTriggerBase extends NestedInput {
+mixin NestedTriggerBase extends NestedInput {
   static const int typeKey = 122;
   @override
   int get coreType => NestedTriggerBase.typeKey;

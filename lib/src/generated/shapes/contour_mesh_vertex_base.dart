@@ -7,7 +7,7 @@ import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/generated/shapes/vertex_base.dart';
 import 'package:rive/src/rive_core/shapes/mesh_vertex.dart';
 
-abstract class ContourMeshVertexBase extends MeshVertex {
+mixin ContourMeshVertexBase extends MeshVertex {
   static const int typeKey = 111;
   @override
   int get coreType => ContourMeshVertexBase.typeKey;

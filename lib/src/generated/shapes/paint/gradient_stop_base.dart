@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-abstract class GradientStopBase extends Component {
+mixin GradientStopBase extends Component {
   static const int typeKey = 19;
   @override
   int get coreType => GradientStopBase.typeKey;

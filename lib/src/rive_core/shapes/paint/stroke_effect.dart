@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-abstract class StrokeEffect {
+mixin StrokeEffect {
   Path effectPath(Path source);
   void invalidateEffect();
 }

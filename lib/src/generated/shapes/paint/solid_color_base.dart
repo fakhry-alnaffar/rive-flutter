@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-abstract class SolidColorBase extends Component {
+mixin SolidColorBase extends Component {
   static const int typeKey = 18;
   @override
   int get coreType => SolidColorBase.typeKey;

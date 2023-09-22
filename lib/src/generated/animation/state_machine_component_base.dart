@@ -4,7 +4,7 @@
 
 import 'package:rive/src/core/core.dart';
 
-abstract class StateMachineComponentBase<T extends CoreContext>
+mixin StateMachineComponentBase<T extends CoreContext>
     extends Core<T> {
   static const int typeKey = 54;
   @override

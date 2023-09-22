@@ -9,7 +9,7 @@ import 'package:rive/src/generated/transform_component_base.dart';
 import 'package:rive/src/generated/world_transform_component_base.dart';
 import 'package:rive/src/rive_core/shapes/parametric_path.dart';
 
-abstract class TriangleBase extends ParametricPath {
+mixin TriangleBase extends ParametricPath {
   static const int typeKey = 8;
   @override
   int get coreType => TriangleBase.typeKey;

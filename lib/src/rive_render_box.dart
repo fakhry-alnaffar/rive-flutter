@@ -5,7 +5,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:rive_common/math.dart';
 
-abstract class RiveRenderBox extends RenderBox {
+mixin RiveRenderBox extends RenderBox {
   Ticker? _ticker;
   BoxFit _fit = BoxFit.none;
   Alignment _alignment = Alignment.center;
