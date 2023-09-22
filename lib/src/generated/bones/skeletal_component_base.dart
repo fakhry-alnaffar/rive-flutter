@@ -7,7 +7,7 @@ import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/generated/world_transform_component_base.dart';
 import 'package:rive/src/rive_core/transform_component.dart';
 
-mixin SkeletalComponentBase extends TransformComponent {
+abstract class SkeletalComponentBase extends TransformComponent {
   static const int typeKey = 39;
   @override
   int get coreType => SkeletalComponentBase.typeKey;

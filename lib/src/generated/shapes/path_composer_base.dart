@@ -4,7 +4,7 @@
 
 import 'package:rive/src/rive_core/component.dart';
 
-mixin PathComposerBase extends Component {
+abstract class PathComposerBase extends Component {
   static const int typeKey = 9;
   @override
   int get coreType => PathComposerBase.typeKey;

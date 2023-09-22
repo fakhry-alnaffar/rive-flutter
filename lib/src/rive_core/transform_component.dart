@@ -11,7 +11,7 @@ import 'package:rive_common/math.dart';
 
 export 'package:rive/src/generated/transform_component_base.dart';
 
-mixin TransformComponent extends TransformComponentBase {
+abstract class TransformComponent extends TransformComponentBase {
   /// Draw rules saved against this transform component, inherited by children.
   DrawRules? _drawRules;
 

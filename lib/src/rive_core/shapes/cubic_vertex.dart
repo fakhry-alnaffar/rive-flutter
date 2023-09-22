@@ -6,7 +6,7 @@ import 'package:rive_common/math.dart';
 
 export 'package:rive/src/generated/shapes/cubic_vertex_base.dart';
 
-mixin CubicVertex extends CubicVertexBase {
+abstract class CubicVertex extends CubicVertexBase {
   Vec2D get outPoint;
   Vec2D get inPoint;
 

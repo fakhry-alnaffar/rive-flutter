@@ -6,7 +6,7 @@ import 'package:rive/src/rive_core/assets/file_asset_contents.dart';
 
 // TODO: Deprecated. Remove this in the next major version (0.12.0).
 // ignore: one_member_abstracts
-mixin FileAssetResolver {
+abstract class FileAssetResolver {
   Future<Uint8List> loadContents(FileAsset asset);
 }
 

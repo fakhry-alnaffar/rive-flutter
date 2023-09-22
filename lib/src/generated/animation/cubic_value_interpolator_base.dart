@@ -4,7 +4,7 @@
 
 import 'package:rive/src/rive_core/animation/cubic_interpolator.dart';
 
-mixin CubicValueInterpolatorBase extends CubicInterpolator {
+abstract class CubicValueInterpolatorBase extends CubicInterpolator {
   static const int typeKey = 138;
   @override
   int get coreType => CubicValueInterpolatorBase.typeKey;

@@ -4,7 +4,7 @@
 
 import 'package:rive/src/rive_core/animation/transition_condition.dart';
 
-mixin TransitionTriggerConditionBase extends TransitionCondition {
+abstract class TransitionTriggerConditionBase extends TransitionCondition {
   static const int typeKey = 68;
   @override
   int get coreType => TransitionTriggerConditionBase.typeKey;

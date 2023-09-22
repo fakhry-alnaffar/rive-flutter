@@ -2,7 +2,7 @@ import 'package:rive/src/generated/constraints/transform_component_constraint_ba
 import 'package:rive/src/rive_core/transform_space.dart';
 export 'package:rive/src/generated/constraints/transform_component_constraint_base.dart';
 
-mixin TransformComponentConstraint
+abstract class TransformComponentConstraint
     extends TransformComponentConstraintBase {
   TransformSpace get minMaxSpace => TransformSpace.values[minMaxSpaceValue];
   set minMaxSpace(TransformSpace value) => minMaxSpaceValue = value.index;

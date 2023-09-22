@@ -17,7 +17,7 @@ enum Axis { horizontal, vertical }
 
 /// An abstract low level path that gets implemented by parametric and point
 /// based paths.
-mixin Path extends PathBase {
+abstract class Path extends PathBase {
   final Mat2D _inverseWorldTransform = Mat2D();
 
   final RenderPath _renderPath = RenderPath();

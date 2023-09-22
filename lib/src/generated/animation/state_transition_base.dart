@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/animation/state_machine_layer_component.dart';
 
-mixin StateTransitionBase extends StateMachineLayerComponent {
+abstract class StateTransitionBase extends StateMachineLayerComponent {
   static const int typeKey = 65;
   @override
   int get coreType => StateTransitionBase.typeKey;

@@ -8,7 +8,7 @@ import 'package:rive/src/generated/animation/state_machine_layer_component_base.
 import 'package:rive/src/rive_core/animation/blend_animation_1d.dart';
 import 'package:rive/src/rive_core/animation/blend_state.dart';
 
-mixin BlendState1DBase extends BlendState<BlendAnimation1D> {
+abstract class BlendState1DBase extends BlendState<BlendAnimation1D> {
   static const int typeKey = 76;
   @override
   int get coreType => BlendState1DBase.typeKey;

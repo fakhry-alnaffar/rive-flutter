@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/animation/listener_action.dart';
 
-mixin ListenerFireEventBase extends ListenerAction {
+abstract class ListenerFireEventBase extends ListenerAction {
   static const int typeKey = 168;
   @override
   int get coreType => ListenerFireEventBase.typeKey;

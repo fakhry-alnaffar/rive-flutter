@@ -8,7 +8,7 @@ import 'package:rive/src/generated/shapes/vertex_base.dart';
 import 'package:rive/src/rive_core/bones/cubic_weight.dart';
 import 'package:rive/src/rive_core/shapes/path_vertex.dart';
 
-mixin CubicVertexBase extends PathVertex<CubicWeight> {
+abstract class CubicVertexBase extends PathVertex<CubicWeight> {
   static const int typeKey = 36;
   @override
   int get coreType => CubicVertexBase.typeKey;

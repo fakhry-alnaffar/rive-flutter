@@ -11,7 +11,7 @@ import 'package:rive/src/rive_core/animation/state_machine_fire_event.dart';
 
 export 'package:rive/src/generated/animation/state_machine_layer_component_base.dart';
 
-mixin StateMachineLayerComponent
+abstract class StateMachineLayerComponent
     extends StateMachineLayerComponentBase<RuntimeArtboard> {
   final LayerComponentEvents _events = LayerComponentEvents();
   LayerComponentEvents get events => _events;

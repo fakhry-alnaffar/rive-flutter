@@ -2,7 +2,7 @@ import 'package:rive/src/generated/assets/drawable_asset_base.dart';
 
 export 'package:rive/src/generated/assets/drawable_asset_base.dart';
 
-mixin DrawableAsset extends DrawableAssetBase {
+abstract class DrawableAsset extends DrawableAssetBase {
   @override
   void heightChanged(double from, double to) {}
 

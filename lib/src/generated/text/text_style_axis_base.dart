@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-mixin TextStyleAxisBase extends Component {
+abstract class TextStyleAxisBase extends Component {
   static const int typeKey = 144;
   @override
   int get coreType => TextStyleAxisBase.typeKey;

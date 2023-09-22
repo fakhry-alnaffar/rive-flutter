@@ -1,5 +1,5 @@
 /// Helper to abstract changing weighted values on a vertex.
-mixin WeightedVertex {
+abstract class WeightedVertex {
   int get weights;
   int get weightIndices;
   set weights(int value);

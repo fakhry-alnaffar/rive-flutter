@@ -8,7 +8,7 @@ import 'package:rive/src/generated/transform_component_base.dart';
 import 'package:rive/src/generated/world_transform_component_base.dart';
 import 'package:rive/src/rive_core/bones/skeletal_component.dart';
 
-mixin BoneBase extends SkeletalComponent {
+abstract class BoneBase extends SkeletalComponent {
   static const int typeKey = 40;
   @override
   int get coreType => BoneBase.typeKey;

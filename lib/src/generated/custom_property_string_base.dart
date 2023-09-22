@@ -6,7 +6,7 @@ import 'package:rive/src/core/core.dart';
 import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/rive_core/custom_property.dart';
 
-mixin CustomPropertyStringBase extends CustomProperty {
+abstract class CustomPropertyStringBase extends CustomProperty {
   static const int typeKey = 130;
   @override
   int get coreType => CustomPropertyStringBase.typeKey;

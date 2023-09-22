@@ -7,7 +7,7 @@ import 'package:rive_common/math.dart';
 
 export 'package:rive/src/generated/shapes/vertex_base.dart';
 
-mixin Vertex<T extends Weight> extends VertexBase {
+abstract class Vertex<T extends Weight> extends VertexBase {
   T? _weight;
   T? get weight => _weight;
 

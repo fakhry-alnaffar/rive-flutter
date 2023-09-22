@@ -5,7 +5,7 @@ import 'package:rive/src/core/core.dart';
 import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/rive_core/bones/weight.dart';
 
-mixin CubicWeightBase extends Weight {
+abstract class CubicWeightBase extends Weight {
   static const int typeKey = 46;
   @override
   int get coreType => CubicWeightBase.typeKey;

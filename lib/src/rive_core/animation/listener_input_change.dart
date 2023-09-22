@@ -5,7 +5,7 @@ import 'package:rive/src/rive_core/animation/state_machine_input.dart';
 
 export 'package:rive/src/generated/animation/listener_input_change_base.dart';
 
-mixin ListenerInputChange extends ListenerInputChangeBase {
+abstract class ListenerInputChange extends ListenerInputChangeBase {
   StateMachineInput _input = StateMachineInput.unknown;
   StateMachineInput get input => _input;
   set input(StateMachineInput value) {

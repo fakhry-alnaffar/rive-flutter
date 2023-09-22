@@ -12,7 +12,7 @@ export 'package:rive/src/generated/shapes/paint/shape_paint_base.dart';
 
 /// Generic ShapePaint that abstracts Stroke and Fill. Automatically hooks up
 /// parent [Shape] to child [ShapePaintMutator]s.
-mixin ShapePaint extends ShapePaintBase {
+abstract class ShapePaint extends ShapePaintBase {
   late Paint _paint;
   Paint get paint => _paint;
   ShapePaintMutator? _paintMutator;

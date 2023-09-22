@@ -15,7 +15,7 @@ export 'package:rive/src/generated/nested_artboard_base.dart';
 
 /// Represents the nested Artboard that'll actually be mounted and placed into
 /// the [NestedArtboard] component.
-mixin MountedArtboard {
+abstract class MountedArtboard {
   void draw(Canvas canvas);
   Mat2D get worldTransform;
   set worldTransform(Mat2D value);

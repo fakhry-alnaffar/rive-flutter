@@ -16,7 +16,7 @@ enum TransitionConditionOp {
   greaterThan,
 }
 
-mixin TransitionCondition extends TransitionConditionBase {
+abstract class TransitionCondition extends TransitionConditionBase {
   StateMachineInput _input = StateMachineInput.unknown;
   StateMachineInput get input => _input;
   set input(StateMachineInput value) {

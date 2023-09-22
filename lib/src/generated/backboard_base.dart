@@ -3,7 +3,7 @@
 
 import 'package:rive/src/core/core.dart';
 
-mixin BackboardBase<T extends CoreContext> extends Core<T> {
+abstract class BackboardBase<T extends CoreContext> extends Core<T> {
   static const int typeKey = 23;
   @override
   int get coreType => BackboardBase.typeKey;

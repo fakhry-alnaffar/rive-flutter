@@ -4,7 +4,7 @@
 
 import 'package:rive/src/core/core.dart';
 
-mixin StateMachineFireEventBase<T extends CoreContext>
+abstract class StateMachineFireEventBase<T extends CoreContext>
     extends Core<T> {
   static const int typeKey = 169;
   @override

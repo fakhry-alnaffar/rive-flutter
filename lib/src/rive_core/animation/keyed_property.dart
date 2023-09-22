@@ -6,7 +6,7 @@ import 'package:rive/src/rive_core/animation/keyframe.dart';
 
 export 'package:rive/src/generated/animation/keyed_property_base.dart';
 
-mixin KeyFrameInterface {
+abstract class KeyFrameInterface {
   int get frame;
 }
 

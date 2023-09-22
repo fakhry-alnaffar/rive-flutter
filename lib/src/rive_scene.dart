@@ -4,7 +4,7 @@ import 'package:rive_common/math.dart';
 
 /// An abstraction for controlling the composition and rendering of a Rive
 /// scene.
-mixin RiveSceneController {
+abstract class RiveSceneController {
   /// Whether the draw callback's view transform should be translated by the
   /// rendering widgets local offset.
   bool get offsetViewTransform => false;

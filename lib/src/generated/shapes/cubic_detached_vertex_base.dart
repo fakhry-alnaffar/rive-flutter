@@ -9,7 +9,7 @@ import 'package:rive/src/generated/shapes/path_vertex_base.dart';
 import 'package:rive/src/generated/shapes/vertex_base.dart';
 import 'package:rive/src/rive_core/shapes/cubic_vertex.dart';
 
-mixin CubicDetachedVertexBase extends CubicVertex {
+abstract class CubicDetachedVertexBase extends CubicVertex {
   static const int typeKey = 6;
   @override
   int get coreType => CubicDetachedVertexBase.typeKey;

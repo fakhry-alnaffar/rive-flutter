@@ -11,7 +11,7 @@ import 'package:rive/src/generated/transform_component_base.dart';
 import 'package:rive/src/generated/world_transform_component_base.dart';
 import 'package:rive/src/rive_core/shapes/polygon.dart';
 
-mixin StarBase extends Polygon {
+abstract class StarBase extends Polygon {
   static const int typeKey = 52;
   @override
   int get coreType => StarBase.typeKey;

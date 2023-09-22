@@ -15,7 +15,7 @@ const int subdivisionMaxIterations = 10;
 
 const double subdivisionPrecision = 0.0000001;
 
-mixin CubicInterface {
+abstract class CubicInterface {
   double get x1;
   set x1(double value);
 
@@ -30,7 +30,7 @@ mixin CubicInterface {
 }
 
 // Returns dx/dt given t, x1, and x2, or dy/dt given t, y1, and y2.
-mixin CubicInterpolator extends CubicInterpolatorBase
+abstract class CubicInterpolator extends CubicInterpolatorBase
     implements Interpolator, CubicInterface {
   @override
   bool equalParameters(Interpolator other) {

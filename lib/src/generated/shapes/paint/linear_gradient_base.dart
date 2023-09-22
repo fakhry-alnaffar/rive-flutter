@@ -6,7 +6,7 @@ import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/rive_core/container_component.dart';
 
-mixin LinearGradientBase extends ContainerComponent {
+abstract class LinearGradientBase extends ContainerComponent {
   static const int typeKey = 22;
   @override
   int get coreType => LinearGradientBase.typeKey;

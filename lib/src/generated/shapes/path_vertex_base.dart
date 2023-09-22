@@ -6,7 +6,7 @@ import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/rive_core/bones/weight.dart';
 import 'package:rive/src/rive_core/shapes/vertex.dart';
 
-mixin PathVertexBase<T extends Weight> extends Vertex<T> {
+abstract class PathVertexBase<T extends Weight> extends Vertex<T> {
   static const int typeKey = 14;
   @override
   int get coreType => PathVertexBase.typeKey;

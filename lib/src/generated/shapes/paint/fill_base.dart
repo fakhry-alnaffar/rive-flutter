@@ -6,7 +6,7 @@ import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/rive_core/shapes/paint/shape_paint.dart';
 
-mixin FillBase extends ShapePaint {
+abstract class FillBase extends ShapePaint {
   static const int typeKey = 20;
   @override
   int get coreType => FillBase.typeKey;

@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-mixin NestedInputBase extends Component {
+abstract class NestedInputBase extends Component {
   static const int typeKey = 121;
   @override
   int get coreType => NestedInputBase.typeKey;

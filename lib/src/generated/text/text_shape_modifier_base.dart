@@ -5,7 +5,7 @@
 import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/rive_core/text/text_modifier.dart';
 
-mixin TextShapeModifierBase extends TextModifier {
+abstract class TextShapeModifierBase extends TextModifier {
   static const int typeKey = 161;
   @override
   int get coreType => TextShapeModifierBase.typeKey;

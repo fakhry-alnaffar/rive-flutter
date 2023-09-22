@@ -1,4 +1,4 @@
-mixin Interpolator {
+abstract class Interpolator {
   int get id;
 
   /// Convert a linear interpolation factor to an eased one. Returns a factor

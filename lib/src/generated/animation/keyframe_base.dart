@@ -3,7 +3,7 @@
 
 import 'package:rive/src/core/core.dart';
 
-mixin KeyFrameBase<T extends CoreContext> extends Core<T> {
+abstract class KeyFrameBase<T extends CoreContext> extends Core<T> {
   static const int typeKey = 29;
   @override
   int get coreType => KeyFrameBase.typeKey;

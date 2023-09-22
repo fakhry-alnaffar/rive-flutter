@@ -3,7 +3,7 @@
 
 import 'package:rive/src/core/core.dart';
 
-mixin AssetBase<T extends CoreContext> extends Core<T> {
+abstract class AssetBase<T extends CoreContext> extends Core<T> {
   static const int typeKey = 99;
   @override
   int get coreType => AssetBase.typeKey;

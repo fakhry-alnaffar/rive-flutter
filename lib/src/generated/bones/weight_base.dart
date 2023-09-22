@@ -4,7 +4,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-mixin WeightBase extends Component {
+abstract class WeightBase extends Component {
   static const int typeKey = 45;
   @override
   int get coreType => WeightBase.typeKey;

@@ -6,7 +6,7 @@ import 'package:rive/src/core/core.dart';
 import 'package:rive/src/generated/animation/listener_action_base.dart';
 import 'package:rive/src/rive_core/animation/listener_input_change.dart';
 
-mixin ListenerBoolChangeBase extends ListenerInputChange {
+abstract class ListenerBoolChangeBase extends ListenerInputChange {
   static const int typeKey = 117;
   @override
   int get coreType => ListenerBoolChangeBase.typeKey;

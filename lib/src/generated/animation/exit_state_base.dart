@@ -5,7 +5,7 @@
 import 'package:rive/src/generated/animation/state_machine_layer_component_base.dart';
 import 'package:rive/src/rive_core/animation/layer_state.dart';
 
-mixin ExitStateBase extends LayerState {
+abstract class ExitStateBase extends LayerState {
   static const int typeKey = 64;
   @override
   int get coreType => ExitStateBase.typeKey;

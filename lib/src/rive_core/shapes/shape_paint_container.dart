@@ -8,7 +8,7 @@ import 'package:rive_common/math.dart';
 
 /// An abstraction to give a common interface to any component that can contain
 /// fills and strokes.
-mixin ShapePaintContainer {
+abstract class ShapePaintContainer {
   final Set<Fill> fills = {};
 
   final Set<Stroke> strokes = {};

@@ -5,7 +5,7 @@
 import 'package:rive/src/generated/animation/transition_condition_base.dart';
 import 'package:rive/src/rive_core/animation/transition_value_condition.dart';
 
-mixin TransitionDoubleConditionBase extends TransitionValueCondition {
+abstract class TransitionDoubleConditionBase extends TransitionValueCondition {
   static const int typeKey = 70;
   @override
   int get coreType => TransitionDoubleConditionBase.typeKey;

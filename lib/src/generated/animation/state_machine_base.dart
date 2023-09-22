@@ -4,7 +4,7 @@
 
 import 'package:rive/src/rive_core/animation/animation.dart';
 
-mixin StateMachineBase extends Animation {
+abstract class StateMachineBase extends Animation {
   static const int typeKey = 53;
   @override
   int get coreType => StateMachineBase.typeKey;

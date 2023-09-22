@@ -9,7 +9,7 @@ import 'package:rive/src/generated/transform_component_base.dart';
 import 'package:rive/src/generated/world_transform_component_base.dart';
 import 'package:rive/src/rive_core/drawable.dart';
 
-mixin NestedArtboardBase extends Drawable {
+abstract class NestedArtboardBase extends Drawable {
   static const int typeKey = 92;
   @override
   int get coreType => NestedArtboardBase.typeKey;

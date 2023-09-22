@@ -3,7 +3,7 @@
 
 import 'package:rive/src/rive_core/component.dart';
 
-mixin CustomPropertyBase extends Component {
+abstract class CustomPropertyBase extends Component {
   static const int typeKey = 167;
   @override
   int get coreType => CustomPropertyBase.typeKey;

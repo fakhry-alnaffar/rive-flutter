@@ -7,7 +7,7 @@ import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/rive_core/animation/state_machine.dart';
 import 'package:rive/src/rive_core/nested_animation.dart';
 
-mixin NestedStateMachineBase extends NestedAnimation<StateMachine> {
+abstract class NestedStateMachineBase extends NestedAnimation<StateMachine> {
   static const int typeKey = 95;
   @override
   int get coreType => NestedStateMachineBase.typeKey;

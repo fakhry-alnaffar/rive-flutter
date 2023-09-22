@@ -4,7 +4,7 @@
 
 import 'package:rive/src/core/core.dart';
 
-mixin KeyedPropertyBase<T extends CoreContext> extends Core<T> {
+abstract class KeyedPropertyBase<T extends CoreContext> extends Core<T> {
   static const int typeKey = 26;
   @override
   int get coreType => KeyedPropertyBase.typeKey;

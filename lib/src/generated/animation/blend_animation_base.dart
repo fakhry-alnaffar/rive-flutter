@@ -4,7 +4,7 @@
 
 import 'package:rive/src/core/core.dart';
 
-mixin BlendAnimationBase<T extends CoreContext> extends Core<T> {
+abstract class BlendAnimationBase<T extends CoreContext> extends Core<T> {
   static const int typeKey = 74;
   @override
   int get coreType => BlendAnimationBase.typeKey;

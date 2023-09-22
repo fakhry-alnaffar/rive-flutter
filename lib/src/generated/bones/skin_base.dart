@@ -5,7 +5,7 @@ import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/rive_core/container_component.dart';
 
-mixin SkinBase extends ContainerComponent {
+abstract class SkinBase extends ContainerComponent {
   static const int typeKey = 43;
   @override
   int get coreType => SkinBase.typeKey;

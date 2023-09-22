@@ -7,7 +7,7 @@ import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/rive_core/shapes/paint/shape_paint.dart';
 
-mixin StrokeBase extends ShapePaint {
+abstract class StrokeBase extends ShapePaint {
   static const int typeKey = 24;
   @override
   int get coreType => StrokeBase.typeKey;

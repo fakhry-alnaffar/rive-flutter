@@ -9,7 +9,7 @@ import 'package:rive/src/utilities/utilities.dart';
 ///
 /// See [CallbackAssetLoader] and [LocalAssetLoader] for an example of how to
 /// use this.
-mixin FileAssetLoader {
+abstract class FileAssetLoader {
   Future<bool> load(FileAsset asset);
   bool isCompatible(FileAsset asset) => true;
 }

@@ -3,7 +3,7 @@ import 'package:rive_common/math.dart';
 
 export 'package:rive/src/generated/shapes/parametric_path_base.dart';
 
-mixin ParametricPath extends ParametricPathBase {
+abstract class ParametricPath extends ParametricPathBase {
   @override
   bool get isClosed => true;
 

@@ -8,7 +8,7 @@ import 'package:rive/src/generated/constraints/targeted_constraint_base.dart';
 import 'package:rive/src/generated/constraints/transform_space_constraint_base.dart';
 import 'package:rive/src/rive_core/constraints/transform_component_constraint.dart';
 
-mixin RotationConstraintBase extends TransformComponentConstraint {
+abstract class RotationConstraintBase extends TransformComponentConstraint {
   static const int typeKey = 89;
   @override
   int get coreType => RotationConstraintBase.typeKey;

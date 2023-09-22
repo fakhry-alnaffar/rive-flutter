@@ -9,7 +9,7 @@ import 'package:rive/src/generated/constraints/targeted_constraint_base.dart';
 import 'package:rive/src/generated/constraints/transform_space_constraint_base.dart';
 import 'package:rive/src/rive_core/constraints/transform_component_constraint.dart';
 
-mixin TransformComponentConstraintYBase
+abstract class TransformComponentConstraintYBase
     extends TransformComponentConstraint {
   static const int typeKey = 86;
   @override

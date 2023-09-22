@@ -8,7 +8,7 @@ import 'package:rive/src/generated/transform_component_base.dart';
 import 'package:rive/src/generated/world_transform_component_base.dart';
 import 'package:rive/src/rive_core/node.dart';
 
-mixin SoloBase extends Node {
+abstract class SoloBase extends Node {
   static const int typeKey = 147;
   @override
   int get coreType => SoloBase.typeKey;

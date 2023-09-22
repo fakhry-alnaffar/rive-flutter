@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/component.dart';
 
-mixin TextValueRunBase extends Component {
+abstract class TextValueRunBase extends Component {
   static const int typeKey = 135;
   @override
   int get coreType => TextValueRunBase.typeKey;

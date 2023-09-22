@@ -10,7 +10,7 @@ import 'package:rive/src/generated/transform_component_base.dart';
 import 'package:rive/src/generated/world_transform_component_base.dart';
 import 'package:rive/src/rive_core/shapes/path.dart';
 
-mixin ParametricPathBase extends Path {
+abstract class ParametricPathBase extends Path {
   static const int typeKey = 15;
   @override
   int get coreType => ParametricPathBase.typeKey;

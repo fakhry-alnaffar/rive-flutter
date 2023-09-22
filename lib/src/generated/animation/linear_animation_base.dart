@@ -5,7 +5,7 @@
 import 'package:rive/src/core/core.dart';
 import 'package:rive/src/rive_core/animation/animation.dart';
 
-mixin LinearAnimationBase extends Animation {
+abstract class LinearAnimationBase extends Animation {
   static const int typeKey = 31;
   @override
   int get coreType => LinearAnimationBase.typeKey;

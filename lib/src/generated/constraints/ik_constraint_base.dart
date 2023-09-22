@@ -7,7 +7,7 @@ import 'package:rive/src/generated/component_base.dart';
 import 'package:rive/src/generated/constraints/constraint_base.dart';
 import 'package:rive/src/rive_core/constraints/targeted_constraint.dart';
 
-mixin IKConstraintBase extends TargetedConstraint {
+abstract class IKConstraintBase extends TargetedConstraint {
   static const int typeKey = 81;
   @override
   int get coreType => IKConstraintBase.typeKey;

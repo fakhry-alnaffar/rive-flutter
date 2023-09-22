@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:rive/src/rive_core/artboard.dart';
 import 'package:rive/src/rive_core/shapes/shape_paint_container.dart';
 
-mixin ShapePaintMutator {
+abstract class ShapePaintMutator {
   ShapePaintContainer? _shapePaintContainer;
   Paint _paint = Paint();
 

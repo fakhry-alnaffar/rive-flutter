@@ -3,7 +3,7 @@
 
 import 'package:rive/src/rive_core/assets/asset.dart';
 
-mixin FolderBase extends Asset {
+abstract class FolderBase extends Asset {
   static const int typeKey = 102;
   @override
   int get coreType => FolderBase.typeKey;

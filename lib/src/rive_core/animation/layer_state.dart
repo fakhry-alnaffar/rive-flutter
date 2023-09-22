@@ -6,7 +6,7 @@ import 'package:rive/src/rive_core/animation/state_transition.dart';
 
 export 'package:rive/src/generated/animation/layer_state_base.dart';
 
-mixin LayerState extends LayerStateBase {
+abstract class LayerState extends LayerStateBase {
   final StateTransitions _transitions = StateTransitions();
   StateTransitions get transitions => _transitions;
 

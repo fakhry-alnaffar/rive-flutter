@@ -8,7 +8,7 @@ export 'package:rive/src/generated/constraints/constraint_base.dart';
 
 /// A specialized [Component] which can be parented to any [TransformComponent]
 /// providing rules for how to constrain its transform space.
-mixin Constraint extends ConstraintBase {
+abstract class Constraint extends ConstraintBase {
   /// Returns the [TransformComponent] which this [Constraint] is applied to.
   TransformComponent? get constrainedComponent =>
       parent is TransformComponent ? parent as TransformComponent : null;

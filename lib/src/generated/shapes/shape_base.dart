@@ -8,7 +8,7 @@ import 'package:rive/src/generated/transform_component_base.dart';
 import 'package:rive/src/generated/world_transform_component_base.dart';
 import 'package:rive/src/rive_core/drawable.dart';
 
-mixin ShapeBase extends Drawable {
+abstract class ShapeBase extends Drawable {
   static const int typeKey = 3;
   @override
   int get coreType => ShapeBase.typeKey;

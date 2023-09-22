@@ -8,7 +8,7 @@ import 'package:rive/src/generated/constraints/constraint_base.dart';
 import 'package:rive/src/generated/constraints/targeted_constraint_base.dart';
 import 'package:rive/src/rive_core/constraints/transform_space_constraint.dart';
 
-mixin FollowPathConstraintBase extends TransformSpaceConstraint {
+abstract class FollowPathConstraintBase extends TransformSpaceConstraint {
   static const int typeKey = 165;
   @override
   int get coreType => FollowPathConstraintBase.typeKey;

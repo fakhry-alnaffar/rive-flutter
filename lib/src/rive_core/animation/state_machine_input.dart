@@ -8,7 +8,7 @@ import 'package:rive/src/rive_core/animation/state_machine_component.dart';
 
 export 'package:rive/src/generated/animation/state_machine_input_base.dart';
 
-mixin StateMachineInput extends StateMachineInputBase {
+abstract class StateMachineInput extends StateMachineInputBase {
   static final StateMachineInput unknown = _StateMachineUnknownInput();
 
   @override

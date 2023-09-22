@@ -4,7 +4,7 @@
 
 import 'package:rive/src/core/core.dart';
 
-mixin ListenerActionBase<T extends CoreContext> extends Core<T> {
+abstract class ListenerActionBase<T extends CoreContext> extends Core<T> {
   static const int typeKey = 125;
   @override
   int get coreType => ListenerActionBase.typeKey;

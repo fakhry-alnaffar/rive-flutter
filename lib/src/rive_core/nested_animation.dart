@@ -4,7 +4,7 @@ import 'package:rive/src/rive_core/nested_artboard.dart';
 
 export 'package:rive/src/generated/nested_animation_base.dart';
 
-mixin NestedAnimation<T extends Animation>
+abstract class NestedAnimation<T extends Animation>
     extends NestedAnimationBase {
   NestedArtboard? get nestedArtboard =>
       parent is NestedArtboard ? parent as NestedArtboard : null;

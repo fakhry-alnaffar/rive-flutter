@@ -8,7 +8,7 @@ import 'package:rive/src/generated/container_component_base.dart';
 import 'package:rive/src/rive_core/animation/linear_animation.dart';
 import 'package:rive/src/rive_core/nested_animation.dart';
 
-mixin NestedLinearAnimationBase
+abstract class NestedLinearAnimationBase
     extends NestedAnimation<LinearAnimation> {
   static const int typeKey = 97;
   @override

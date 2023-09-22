@@ -6,7 +6,7 @@ import 'package:rive/src/rive_core/artboard.dart';
 
 export 'package:rive/src/generated/animation/blend_animation_base.dart';
 
-mixin BlendAnimation extends BlendAnimationBase {
+abstract class BlendAnimation extends BlendAnimationBase {
   LinearAnimation? _animation;
   LinearAnimation? get animation => _animation;
 

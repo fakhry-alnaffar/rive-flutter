@@ -3,7 +3,7 @@
 
 import 'package:rive/src/core/core.dart';
 
-mixin ComponentBase<T extends CoreContext> extends Core<T> {
+abstract class ComponentBase<T extends CoreContext> extends Core<T> {
   static const int typeKey = 10;
   @override
   int get coreType => ComponentBase.typeKey;
